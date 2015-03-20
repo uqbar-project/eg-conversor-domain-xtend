@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>conversor-domain-xtend</artifactId>
+	<version>1.0-RELEASE</version>
+
+	<parent>
+		<groupId>org.uqbar-project</groupId>
+		<artifactId>uqbar-examples-xtend-parent</artifactId>
+		<version>2.7.3</version>
+	</parent>
+	
+	<properties>
+		<scm.svnServer>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend</scm.svnServer>
+		<scm.svnRepository>celulares-domain-xtend</scm.svnRepository>
+		<uqbar.repo.url>ftp://ftp.uqbar-wiki.org</uqbar.repo.url>
+	</properties>
+
+	<scm>
+		<connection>scm:svn:scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/celulares-domain-xtend</connection>
+		<developerConnection>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/celulares-domain-xtend</developerConnection>
+		<url>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/celulares-domain-xtend</url>
+	</scm>
+		
+	<dependencies>
+		<dependency>
+			<groupId>org.uqbar-project</groupId>
+			<artifactId>uqbar-domain</artifactId>
+			<version>3.5.1</version>
+		</dependency>
+	</dependencies>
+
+</project>
