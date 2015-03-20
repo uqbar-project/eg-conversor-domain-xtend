@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>conversor-domain-xtend</artifactId>
-	<version>1.0-RELEASE</version>
+	<version>1.0-SNAPSHOT</version>
 
 	<parent>
 		<groupId>org.uqbar-project</groupId>
