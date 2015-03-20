@@ -5,7 +5,7 @@ import org.uqbar.commons.utils.Observable
 
 @Accessors
 @Observable
-class ConversorModel {
+class Conversor {
 	double millas
 	double kilometros 
 	
