@@ -23,7 +23,7 @@ class ConversorGenerico {
 	
 	def setConversion(Conversion conversion) {
 		this.conversion = conversion
-		firePropertyChanged(puedeConvertir, "puedeConvertir")
+		firePropertyChanged(this, "puedeConvertir", puedeConvertir)
 	}
 	
 	def isPuedeConvertir() {
