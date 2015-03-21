@@ -13,14 +13,14 @@
 	
 	<properties>
 		<scm.svnServer>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend</scm.svnServer>
-		<scm.svnRepository>celulares-domain-xtend</scm.svnRepository>
+		<scm.svnRepository>conversor-domain-xtend</scm.svnRepository>
 		<uqbar.repo.url>ftp://ftp.uqbar-wiki.org</uqbar.repo.url>
 	</properties>
 
 	<scm>
-		<connection>scm:svn:scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/celulares-domain-xtend</connection>
-		<developerConnection>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/celulares-domain-xtend</developerConnection>
-		<url>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/celulares-domain-xtend</url>
+		<connection>scm:svn:scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/conversor-domain-xtend</connection>
+		<developerConnection>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/conversor-domain-xtend</developerConnection>
+		<url>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/conversor-domain-xtend</url>
 	</scm>
 		
 	<dependencies>
