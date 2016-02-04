@@ -6,17 +6,19 @@ import org.uqbar.commons.utils.Observable
 @Accessors
 @Observable
 class ConversorSincronizado {
+	static double FACTOR_CONVERSION_MILLAS_KM = 1.60934
+	
 	double millas
 	double kilometros
 	
 	def void setMillas(double millas) {
 		this.millas = millas
-		this.kilometros = millas * 1.60934 
+		this.kilometros = millas * FACTOR_CONVERSION_MILLAS_KM 
 	}
 	
 	def void setKilometros(double kilometros) {
 		this.kilometros = kilometros
-		this.millas = kilometros / 1.60934
+		this.millas = kilometros / FACTOR_CONVERSION_MILLAS_KM
 	}
 	
 }

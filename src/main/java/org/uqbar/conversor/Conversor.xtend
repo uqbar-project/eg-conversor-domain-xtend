@@ -6,10 +6,13 @@ import org.uqbar.commons.utils.Observable
 @Accessors
 @Observable
 class Conversor {
+	static double FACTOR_CONVERSION_MILLAS_KM = 1.60934
+	
 	double millas
 	double kilometros 
 	
 	def convertir() {
-		kilometros = millas * 1.60934
+		kilometros = millas * FACTOR_CONVERSION_MILLAS_KM
 	}
+	
 }
