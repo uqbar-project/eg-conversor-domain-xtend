@@ -15,11 +15,11 @@ class ConversorGenerico {
 		output = conversion.convertir(this.input)
 	}
 	
-	def setConversion(Conversion conversion) {
-		this.conversion = conversion
-		// con la annotation dependencies no hace falta esta línea
-		// firePropertyChanged(this, "puedeConvertir", puedeConvertir)
-	}
+//	def setConversion(Conversion conversion) {
+//		this.conversion = conversion
+//		// con la annotation dependencies no hace falta esta línea
+//		// firePropertyChanged(this, "puedeConvertir", puedeConvertir)
+//	}
 	
 	// la annotation de abajo indica que puedeConvertir 
 	// depende de la propiedad conversion
