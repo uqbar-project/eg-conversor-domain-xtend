@@ -1,8 +1,8 @@
 package org.uqbar.conversor
 
 import org.eclipse.xtend.lib.annotations.Accessors
-import org.uqbar.commons.utils.Dependencies
-import org.uqbar.commons.utils.Observable
+import org.uqbar.commons.model.annotations.Dependencies
+import org.uqbar.commons.model.annotations.Observable
 
 @Accessors
 @Observable
@@ -14,12 +14,6 @@ class ConversorGenerico {
 	def void convertir() {
 		output = conversion.convertir(this.input)
 	}
-	
-//	def setConversion(Conversion conversion) {
-//		this.conversion = conversion
-//		// con la annotation dependencies no hace falta esta línea
-//		// firePropertyChanged(this, "puedeConvertir", puedeConvertir)
-//	}
 	
 	// la annotation de abajo indica que puedeConvertir 
 	// depende de la propiedad conversion

@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>conversor-domain-xtend</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 
 	<parent>
 		<groupId>org.uqbar-project</groupId>
@@ -12,22 +12,22 @@
 	</parent>
 	
 	<properties>
-		<scm.svnServer>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend</scm.svnServer>
-		<scm.svnRepository>conversor-domain-xtend</scm.svnRepository>
+		<scm.svnServer>scm:git:https://github.com/uqbar-project</scm.svnServer>
+		<scm.svnRepository>eg-conversor-domain-xtend</scm.svnRepository>
 		<uqbar.repo.url>ftp://ftp.uqbar-wiki.org</uqbar.repo.url>
 	</properties>
 
 	<scm>
-		<connection>scm:svn:scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/conversor-domain-xtend</connection>
-		<developerConnection>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/conversor-domain-xtend</developerConnection>
-		<url>scm:svn:https://svn2.xp-dev.com/svn/uqbar/examples/ui/domain/xtend/conversor-domain-xtend</url>
+		<connection>scm:git:git:git:https://github.com/uqbar-project/eg-conversor-domain-xtend</connection>
+		<developerConnection>scm:git:https://github.com/uqbar-project/eg-conversor-domain-xtend</developerConnection>
+		<url>scm:git:https://github.com/uqbar-project/eg-conversor-domain-xtend</url>
 	</scm>
 		
 	<dependencies>
 		<dependency>
 			<groupId>org.uqbar-project</groupId>
 			<artifactId>uqbar-domain</artifactId>
-			<version>3.6.1</version>
+			<version>3.6.3</version>
 		</dependency>
 	</dependencies>
 

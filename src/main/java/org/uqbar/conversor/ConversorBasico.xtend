@@ -1,4 +1,4 @@
-package org.uqbar.conversor;
+package org.uqbar.conversor
 
 /**
  * 
