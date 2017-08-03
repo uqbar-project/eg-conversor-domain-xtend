@@ -10,10 +10,10 @@
 		<artifactId>uqbar-examples-xtend-parent</artifactId>
 		<version>2.9.1</version>
 	</parent>
-	
+
 	<properties>
-		<scm.svnServer>scm:git:https://github.com/uqbar-project</scm.svnServer>
-		<scm.svnRepository>eg-conversor-domain-xtend</scm.svnRepository>
+		<scm.gitServer>scm:git:https://github.com/uqbar-project</scm.gitServer>
+		<scm.gitRepository>eg-conversor-domain-xtend</scm.gitRepository>
 		<uqbar.repo.url>ftp://ftp.uqbar-wiki.org</uqbar.repo.url>
 	</properties>
 
@@ -22,7 +22,7 @@
 		<developerConnection>scm:git:https://github.com/uqbar-project/eg-conversor-domain-xtend</developerConnection>
 		<url>scm:git:https://github.com/uqbar-project/eg-conversor-domain-xtend</url>
 	</scm>
-		
+
 	<dependencies>
 		<dependency>
 			<groupId>org.uqbar-project</groupId>
@@ -31,4 +31,18 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>uqbar-wiki.org-releases</id>
+			<name>uqbar-wiki.org-releases</name>
+			<url>http://uqbar-wiki.org/mvn/releases</url>
+		</repository>
+		<repository>
+			<snapshots />
+			<id>uqbar-wiki.org-snapshots</id>
+			<name>uqbar-wiki.org-snapshots</name>
+			<url>http://uqbar-wiki.org/mvn/snapshots</url>
+		</repository>
+	</repositories>
+	
 </project>
